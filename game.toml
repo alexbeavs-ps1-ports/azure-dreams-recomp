@@ -6,7 +6,9 @@ name = "Azure Dreams"
 id = "SLUS-00614"
 players = 2
 exe = "disc/SLUS_006.14"
-disc = "disc/disc.cue"
+disc = "disc/Azure Dreams (USA).cue"
+discs = ["disc/Azure Dreams (USA).cue"]
+disc_serials = ["SLUS-00614"]
 load_address = "0x8002D000"
 entry_pc = "0x80033930"
 text_size = "0x00054800"
@@ -15,8 +17,8 @@ stack_base = "0x801FFFF0"
 # Digests are for data Track 01 (first BINARY FILE / TRACK 01).
 [prepare_disc]
 out_dir = "disc"
-bin_name = "disc.bin"
-cue_name = "disc.cue"
+bin_name = "Azure Dreams (USA).bin"
+cue_name = "Azure Dreams (USA).cue"
 boot_exe = "SLUS_006.14"
 known_sizes = [298576992]
 known_md5 = [
